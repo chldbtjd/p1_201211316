@@ -1,0 +1,12 @@
+@startuml
+start
+:makeSwirlSquare(size,bigger,sides,angle);
+
+repeat
+if (i is divided by 2) then
+    :grow bigger;
+endif
+:draw;
+repeat while(turns)
+stop
+@enduml
