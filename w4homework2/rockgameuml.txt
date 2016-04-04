@@ -1,0 +1,23 @@
+@startuml
+start
+:get user input sel1;
+:get user input sel2;
+:playgame(sel1,sel2);
+if (1==2) then (1==2)
+    :result= "draw";
+elseif(1=='scissor'and2=='rock')
+        :result= "rock wins";
+elseif(1=='scissor'and2=='paper')
+        :result="scissor wins";
+elseif(1=='paper'and2=='rock')
+        :result="paper win";
+elseif(1=='paper'and2=='scissor')
+    :result= "scissor win";
+elseif(1=='rock'and2=='scissor')
+    :result= "rock win";
+elseif(1=='rock'and2=='paper')
+    :result= "paper win";
+endif
+:return result;
+stop
+@enduml

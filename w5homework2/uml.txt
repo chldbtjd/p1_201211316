@@ -1,0 +1,14 @@
+@startuml
+start
+:raw_input(height?),raw_input(weight?);
+:computeBMI(height,weight);
+ if (bmi>=18.5 and bmi<25) 
+  :print "normal weight";
+elseif (bmi>=25.0 and bmi<30)
+  :print "overweight";
+else
+  :print "error";
+endif
+:print result;
+stop
+@enduml
