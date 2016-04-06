@@ -1,0 +1,11 @@
+@startuml
+start
+:raw_input("year:"); 
+if (yoonneyun>) then (yes)
+  :yoonneyun;
+else (no)
+  :false;
+endif
+:print result;
+stop
+@enduml
