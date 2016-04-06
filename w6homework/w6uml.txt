@@ -1,0 +1,9 @@
+@startuml
+start
+repeat 
+if(i%3==0 or 5%==0) then(yes)
+     :sum =sum+i;
+endif
+repeat while(i<1000)
+stop
+@enduml
