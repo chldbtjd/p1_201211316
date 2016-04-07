@@ -1,0 +1,15 @@
+@startuml
+start
+repeat
+  :a=raw_input("number:"),num=100;
+if(a<100)
+    :print "up";
+elseif(a>100)
+    :print "down";
+else
+    :print "correct";
+    :break;
+endif
+repeat while (Still don't correct?)
+stop
+@enduml
