@@ -1,4 +1,4 @@
-x1=list()
+
 
 def sumList(x1): 
     sum =0
@@ -12,7 +12,8 @@ def sumList(x1):
     return sum
 
 def lab6():
-    sumList(x1)
+     x1=list()
+     sumList(x1)
 def main():
     lab6()
     
