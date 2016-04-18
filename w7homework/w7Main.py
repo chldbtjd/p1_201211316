@@ -12,13 +12,14 @@ def drawSquareAt(size,pos):
 
         t1.fd(size)
         t1.right(90)
-    print tracks
+    return tracks
 
 
 def lab7():
     pos=(0.00,0.00)
     size=90
-    drawSquareAt(size,pos)
+    mytracks=drawSquareAt(size,pos)
+    print mytracks
 def main():
     lab7()
 if __name__=="__main__": 
