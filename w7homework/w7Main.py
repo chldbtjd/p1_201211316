@@ -3,13 +3,13 @@ wn = turtle.Screen()
 t1= turtle.Turtle()
 
 def drawSquareAt(size):
-    x=list()
+    tracks=list()
     for i in range(4):
-        x.append(t1.pos())
+        tracks.append(t1.pos())
 
         t1.fd(size)
         t1.right(90)
-    print x
+    print tracks
 
 
 def lab7():
